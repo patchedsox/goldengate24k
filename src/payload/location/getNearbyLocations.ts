@@ -1,5 +1,4 @@
-import { RequestBody, ResponseBody } from 'shared/goldengate24k';
-import { Requestable } from 'shared/goldengate24k';
+import { RequestBody, ResponseBody, Requestable } from '../../core';
 
 export interface GetNearbyLocationsRequest extends RequestBody {
   radius: string;

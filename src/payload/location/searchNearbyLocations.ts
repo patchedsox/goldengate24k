@@ -1,5 +1,4 @@
-import { RequestBody, ResponseBody } from 'shared/golden-gate/core/types';
-import { Requestable } from 'shared/golden-gate';
+import { RequestBody, ResponseBody, Requestable } from '../../core';
 
 export interface SearchNearbyLocationsRequest extends RequestBody {
   radius: string;

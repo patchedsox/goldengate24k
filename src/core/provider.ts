@@ -5,6 +5,7 @@ export interface HttpRequest<T extends RequestBody> {
 }
 
 export interface HttpResponse<T extends ResponseBody> {
+  status: number;
   body: T;
 }
 
