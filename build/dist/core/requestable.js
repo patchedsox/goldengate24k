@@ -1,12 +1,15 @@
 import { GoldenGateHttp } from './provider';
 var Requestable = /** @class */ (function () {
-    function Requestable(body) {
-        this.body = body;
+    function Requestable(value) {
+        this.value = value;
+        this.type = this.constructor.name;
     }
     Requestable.prototype.send = function () {
         return GoldenGateHttp
             .provider
-            .post({ body: this.body })
+            .post({
+            body: this
+        })
             .then(function (result) { return result.body; });
     };
     return Requestable;

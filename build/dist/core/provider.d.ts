@@ -1,10 +1,10 @@
-import { RequestBody, ResponseBody } from './types';
+import { RequestBody, ResponseBody, Action, ActionResponse } from './types';
 export interface HttpRequest<T extends RequestBody> {
-    body: T;
+    body: Action<T>;
 }
 export interface HttpResponse<T extends ResponseBody> {
     status: number;
-    body: T;
+    body: ActionResponse<T>;
 }
 export interface GoldenGateHttpProvider {
     post<I extends RequestBody, O extends ResponseBody>(request: HttpRequest<I>): Promise<HttpResponse<O>>;

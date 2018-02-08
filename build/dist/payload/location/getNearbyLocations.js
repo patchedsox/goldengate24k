@@ -14,7 +14,6 @@ var GetNearbyLocations = /** @class */ (function (_super) {
     function GetNearbyLocations() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    GetNearbyLocations.type = GetNearbyLocations.constructor.name;
     return GetNearbyLocations;
 }(Requestable));
 export { GetNearbyLocations };

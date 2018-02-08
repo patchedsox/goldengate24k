@@ -6,5 +6,4 @@ export interface SearchNearbyLocationsResponse extends ResponseBody {
     locations: Array<{}>;
 }
 export declare class SearchNearbyLocations extends Requestable<SearchNearbyLocationsRequest, SearchNearbyLocationsResponse> {
-    static type: string;
 }
