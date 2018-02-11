@@ -12,6 +12,8 @@ export interface GetNearbyLocationsResponse extends ResponseBody {
   locations: Array<FilmLocationSchema>;
 }
 
+const TYPE = 'GetNearbyLocations';
+
 export class GetNearbyLocations extends Requestable<GetNearbyLocationsRequest, GetNearbyLocationsResponse> {
-  readonly type = 'GetNearbyLocations';
+  readonly type = TYPE;
 }

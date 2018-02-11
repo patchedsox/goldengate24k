@@ -12,6 +12,8 @@ export interface SearchLocationsResponse extends ResponseBody {
   route: any;
 }
 
+const TYPE = 'SearchLocations';
+
 export class SearchLocations extends Requestable<SearchLocationsRequest, SearchLocationsResponse> {
-  readonly type = 'SearchLocations';
+  readonly type = TYPE;
 }

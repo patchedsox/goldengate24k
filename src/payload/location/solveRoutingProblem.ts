@@ -10,7 +10,8 @@ export interface SolveRoutingProblemRequest extends RequestBody {
 export interface SolveRoutingProblemResponse extends ResponseBody {
   locationsWithRouteCoordinates: Array<FilmLocationSchema & { routeCoordinates: number[][] }>;
 }
+const TYPE = 'SolveRoutingProblem'
 
 export class SolveRoutingProblem extends Requestable<SolveRoutingProblemRequest, SolveRoutingProblemResponse> {
-  readonly type = 'SolveRoutingProblem';
+  readonly type = TYPE;
 }
