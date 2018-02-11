@@ -2,5 +2,9 @@
   "name": "goldengate24k",
   "version": "1.0.4",
   "main": "build/dist/index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.3.2",
+    "http-server": "^0.11.1"
+  }
 }
