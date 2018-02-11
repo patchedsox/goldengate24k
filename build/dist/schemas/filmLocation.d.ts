@@ -8,9 +8,9 @@ export interface FilmLocationSchema {
     distributor: string;
     director: string;
     writer: string;
-    actor1: string;
-    actor2: string;
-    actor3: string;
+    actor_1: string;
+    actor_2: string;
+    actor_3: string;
     coordinateNotFound: boolean;
     coordinates: {
         lng: number;
