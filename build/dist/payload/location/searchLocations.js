@@ -9,11 +9,12 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 import { Requestable } from '../../core';
+var TYPE = 'SearchLocations';
 var SearchLocations = /** @class */ (function (_super) {
     __extends(SearchLocations, _super);
     function SearchLocations() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.type = 'SearchLocations';
+        _this.type = TYPE;
         return _this;
     }
     return SearchLocations;

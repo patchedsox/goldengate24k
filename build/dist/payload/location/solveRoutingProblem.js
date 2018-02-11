@@ -9,11 +9,12 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 import { Requestable } from '../../core';
+var TYPE = 'SolveRoutingProblem';
 var SolveRoutingProblem = /** @class */ (function (_super) {
     __extends(SolveRoutingProblem, _super);
     function SolveRoutingProblem() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.type = 'SolveRoutingProblem';
+        _this.type = TYPE;
         return _this;
     }
     return SolveRoutingProblem;
