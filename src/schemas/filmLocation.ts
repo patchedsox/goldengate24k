@@ -1,4 +1,5 @@
 export interface FilmLocationSchema {
+  id: string;
   title: string;
   releaseYear: number;
   locations: string;
