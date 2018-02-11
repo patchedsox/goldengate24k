@@ -9,13 +9,12 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 import { Requestable } from '../../core';
-var GetNearbyLocations = /** @class */ (function (_super) {
-    __extends(GetNearbyLocations, _super);
-    function GetNearbyLocations() {
+var SolveRoutingProblem = /** @class */ (function (_super) {
+    __extends(SolveRoutingProblem, _super);
+    function SolveRoutingProblem() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    GetNearbyLocations.type = GetNearbyLocations.constructor.name;
-    return GetNearbyLocations;
+    return SolveRoutingProblem;
 }(Requestable));
-export { GetNearbyLocations };
-//# sourceMappingURL=getNearbyLocations.js.map
+export { SolveRoutingProblem };
+//# sourceMappingURL=solveRoutingProblem.js.map

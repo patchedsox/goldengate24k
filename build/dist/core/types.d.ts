@@ -1,5 +1,5 @@
 export interface Traceable {
-    traceId: string;
+    traceId?: string;
 }
 export interface RequestBody extends Traceable {
 }

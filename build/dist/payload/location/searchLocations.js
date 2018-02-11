@@ -9,12 +9,12 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 import { Requestable } from '../../core';
-var SearchNearbyLocations = /** @class */ (function (_super) {
-    __extends(SearchNearbyLocations, _super);
-    function SearchNearbyLocations() {
+var SearchLocations = /** @class */ (function (_super) {
+    __extends(SearchLocations, _super);
+    function SearchLocations() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return SearchNearbyLocations;
+    return SearchLocations;
 }(Requestable));
-export { SearchNearbyLocations };
-//# sourceMappingURL=searchNearbyLocations.js.map
+export { SearchLocations };
+//# sourceMappingURL=searchLocations.js.map

@@ -1,2 +1,3 @@
 export * from './getNearbyLocations';
-export * from './searchNearbyLocations';
+export * from './searchLocations';
+export * from './solveRoutingProblem';
