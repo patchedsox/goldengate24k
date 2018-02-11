@@ -1,6 +1,6 @@
 {
   "name": "goldengate24k",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "build/dist/index.js",
   "license": "MIT",
   "dependencies": {
