@@ -13,5 +13,5 @@ export interface GetNearbyLocationsResponse extends ResponseBody {
 }
 
 export class GetNearbyLocations extends Requestable<GetNearbyLocationsRequest, GetNearbyLocationsResponse> {
-  type: 'GetNearbyLocations';
+  readonly type = 'GetNearbyLocations';
 }

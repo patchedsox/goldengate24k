@@ -13,5 +13,5 @@ export interface SearchLocationsResponse extends ResponseBody {
 }
 
 export class SearchLocations extends Requestable<SearchLocationsRequest, SearchLocationsResponse> {
-  type: 'SearchLocations';
+  readonly type = 'SearchLocations';
 }

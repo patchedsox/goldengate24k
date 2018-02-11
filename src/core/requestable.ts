@@ -4,7 +4,7 @@ import { HttpRequest } from '../';
 import { Uuid } from './uuid';
 
 export abstract class Requestable<I extends RequestBody, O extends ResponseBody> implements Action<I> {
-  abstract type: string;
+  abstract readonly type: string;
   constructor(public value: I) { }
   send(): Promise<ActionResponse<O>> {
     let body = <HttpRequest<I>>{
