@@ -3,7 +3,6 @@ import { Uuid } from './uuid';
 var Requestable = /** @class */ (function () {
     function Requestable(value) {
         this.value = value;
-        this.type = this.constructor.name;
     }
     Requestable.prototype.send = function () {
         var body = {
