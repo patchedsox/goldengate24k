@@ -12,7 +12,9 @@ import { Requestable } from '../../core';
 var SearchLocations = /** @class */ (function (_super) {
     __extends(SearchLocations, _super);
     function SearchLocations() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.type = 'SearchLocations';
+        return _this;
     }
     return SearchLocations;
 }(Requestable));

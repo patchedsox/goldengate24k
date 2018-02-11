@@ -12,7 +12,9 @@ import { Requestable } from '../../core';
 var GetNearbyLocations = /** @class */ (function (_super) {
     __extends(GetNearbyLocations, _super);
     function GetNearbyLocations() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.type = 'GetNearbyLocations';
+        return _this;
     }
     return GetNearbyLocations;
 }(Requestable));

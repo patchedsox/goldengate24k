@@ -12,7 +12,9 @@ import { Requestable } from '../../core';
 var SolveRoutingProblem = /** @class */ (function (_super) {
     __extends(SolveRoutingProblem, _super);
     function SolveRoutingProblem() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.type = 'SolveRoutingProblem';
+        return _this;
     }
     return SolveRoutingProblem;
 }(Requestable));

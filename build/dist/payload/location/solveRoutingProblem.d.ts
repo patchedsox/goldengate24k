@@ -12,5 +12,5 @@ export interface SolveRoutingProblemResponse extends ResponseBody {
     }>;
 }
 export declare class SolveRoutingProblem extends Requestable<SolveRoutingProblemRequest, SolveRoutingProblemResponse> {
-    type: 'SolveRoutingProblem';
+    readonly type: string;
 }
