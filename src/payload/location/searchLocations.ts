@@ -12,4 +12,6 @@ export interface SearchLocationsResponse extends ResponseBody {
   route: any;
 }
 
-export class SearchLocations extends Requestable<SearchLocationsRequest, SearchLocationsResponse> { }
+export class SearchLocations extends Requestable<SearchLocationsRequest, SearchLocationsResponse> {
+  type: 'SearchLocations';
+}

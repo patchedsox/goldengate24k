@@ -12,4 +12,6 @@ export interface GetNearbyLocationsResponse extends ResponseBody {
   locations: Array<FilmLocationSchema>;
 }
 
-export class GetNearbyLocations extends Requestable<GetNearbyLocationsRequest, GetNearbyLocationsResponse> { }
+export class GetNearbyLocations extends Requestable<GetNearbyLocationsRequest, GetNearbyLocationsResponse> {
+  type: 'GetNearbyLocations';
+}

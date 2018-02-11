@@ -8,8 +8,9 @@ export interface SolveRoutingProblemRequest extends RequestBody {
   };
 }
 export interface SolveRoutingProblemResponse extends ResponseBody {
-  // tslint:disable-next-line:no-any
   locationsWithRouteCoordinates: Array<FilmLocationSchema & { routeCoordinates: number[][] }>;
 }
 
-export class SolveRoutingProblem extends Requestable<SolveRoutingProblemRequest, SolveRoutingProblemResponse> { }
+export class SolveRoutingProblem extends Requestable<SolveRoutingProblemRequest, SolveRoutingProblemResponse> {
+  type: 'SolveRoutingProblem';
+}
