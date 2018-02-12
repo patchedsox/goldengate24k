@@ -55,7 +55,7 @@ Implement the provider as an angular service
 Inject and register the provider in a module constructor
 ``` typescript
 export class SharedModule {
-  constructor(private goldenGate: GoldenGate, private ngRedux: NgRedux<AppState>) {
+  constructor(private goldenGate: GoldenGate) {
     GoldenGateHttp.use(this.goldenGate);
     ...
   }
