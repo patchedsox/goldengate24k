@@ -14,7 +14,7 @@ This project was created with intentions to help develop back-end and front-end 
         text: searchText,
         skip: skip,
         take: this.pageSize
-      }).send()
+      }).send() // Returns a promise -> Promise<ActionResponse<O>>
 ```
 
 #### Example implementation of the GoldenGateHttpProvider
